@@ -1,5 +1,5 @@
 // Permite abrir la app sin conexión. Sube el número si cambias archivos.
-const CACHE = 'gastos-v1';
+const CACHE = 'gastos-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
